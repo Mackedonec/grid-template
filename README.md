@@ -3,8 +3,8 @@
 ## Automated Validators
 
 
-[![HTML CSS valid](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/HTML5Validator.yml/badge.svg)](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/HTML5Validator.yml)
+[![HTML CSS valid](https://github.com/Mackedonec/grid-template/actions/workflows/HTML5Validator.yml/badge.svg)](https://github.com/Mackedonec/grid-template/actions/workflows/HTML5Validator.yml)
 
-[![Editor Config](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/EditorConfig.yml/badge.svg)](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/EditorConfig.yml)
+[![HTML CSS valid](https://github.com/Mackedonec/grid-template/actions/workflows/HTML5Validator.yml/badge.svg)](https://github.com/Mackedonec/grid-template/actions/workflows/HTML5Validator.yml)
 
-[![Pages Build Deployment](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FomenkoAndrey/20221205_____grid-template/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/Mackedonec/grid-template/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Mackedonec/grid-template/actions/workflows/pages/pages-build-deployment)
