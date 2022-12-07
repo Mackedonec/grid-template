@@ -1,5 +1,13 @@
 @use "../../libs/normalize.css/normalize";
 
+@use "mixins/mixins";
+@use "mixins/mixins-media";
+@use "mixins/index";
+@use "mixins/extends";
+
+
+@use "presets/skin";
+@use "presets/variables";
 
 @use "common/typography";
 @use "common/classes";
