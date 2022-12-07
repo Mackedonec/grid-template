@@ -1,2 +1,18 @@
 @use "../../presets/" as *;
 @use "../../mixins/" as *;
+
+.header-logo__link {
+  display: block;
+  padding: 40px;
+  font-size: 24px;
+  letter-spacing: 6px;
+  line-height: 20px;
+  font-family: $font-main;
+}
+
+.header-logo__accent {
+  width: 80px;
+  padding: 10px 0 10px 4px;
+  height: 60px;
+  border: 3px solid #d53d27;
+}

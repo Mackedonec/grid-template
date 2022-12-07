@@ -16,9 +16,16 @@ body {
   background-color: $color-light;
 }
 
-h1 {}
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-family: $font-header;
+}
 
-h2 {}
+h2 {
+  font-family: $font-header;
+}
 
 h3 {}
 
