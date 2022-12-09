@@ -9,6 +9,11 @@
   background-color: rgba($color-light, 0.1);
   border: 2px solid $color-light;
   padding: 0.5em 1em;
+  transition: background-color 0.25s;
+
+  &:hover {
+    background-color: $color-accent;
+  }
 
   &--light {}
 }
