@@ -3,7 +3,8 @@
 
 .header-navbar {
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, max-content));
     justify-content: end;
     gap: $gap-x2;
     @include unlist
