@@ -10,6 +10,8 @@
   border: 2px solid $color-light;
   padding: 0.5em 1em;
   transition: background-color 0.25s;
+  font-size: 1.125rem;
+  letter-spacing: 0.1em;
 
   &:hover {
     background-color: $color-accent;
