@@ -20,3 +20,33 @@
     grid-auto-rows: calc(200px - 13.3333333333px);
   }
 }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .header-content__title {
+    margin: 0 0 52px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .header-content__title {
+    margin: 0 0 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .header-content__title {
+    margin: 0 0 32px;
+  }
+}
