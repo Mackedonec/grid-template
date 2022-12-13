@@ -3,41 +3,49 @@
 
 .header-navbar {
   &__btn {
+    position: relative;
+
     width: 30px;
     height: 22px;
-    position: relative;
     margin: $gap-sm 0 $gap-sm auto;
-    transform: rotate(0deg);
-    transition: .5s ease-in-out;
+
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+    transform: rotate(0deg);
 
     @include md-min {
       display: none;
     }
 
     &-row {
-      display: block;
       position: absolute;
-      height: 3px;
+
+      display: block;
+
       width: 50%;
-      background: $color-light;
-      opacity: 1;
+      height: 3px;
+
+      transition: 0.25s ease-in-out;
       transform: rotate(0deg);
-      transition: .25s ease-in-out;
+
+      opacity: 1;
+      background: $color-light;
 
       &:nth-child(even) {
         left: 50%;
+
         border-radius: 0 3px 3px 0;
       }
 
       &:nth-child(odd) {
-        left: 0px;
+        left: 0;
+
         border-radius: 3px 0 0 3px;
       }
 
       &:nth-child(1),
       &:nth-child(2) {
-        top: 0px;
+        top: 0;
       }
 
       &:nth-child(3),
@@ -52,7 +60,6 @@
     }
 
     &.active span {
-
       &:nth-child(1),
       &:nth-child(6) {
         transform: rotate(45deg);
@@ -64,33 +71,35 @@
       }
 
       &:nth-child(1) {
-        left: 2px;
         top: 3px;
+        left: 2px;
       }
 
       &:nth-child(2) {
-        left: calc(50% - 2px);
         top: 3px;
+        left: calc(50% - 2px);
       }
 
       &:nth-child(3) {
         left: -50%;
+
         opacity: 0;
       }
 
       &:nth-child(4) {
         left: 100%;
+
         opacity: 0;
       }
 
       &:nth-child(5) {
-        left: 2px;
         top: 14px;
+        left: 2px;
       }
 
       &:nth-child(6) {
-        left: calc(50% - 2px);
         top: 14px;
+        left: calc(50% - 2px);
       }
     }
   }
@@ -98,24 +107,26 @@
   &__list {
     @include md-min {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30px, max-content));
       justify-content: end;
+
       gap: $gap;
+      grid-template-columns: repeat(auto-fit, minmax(30px, max-content));
       @include unlist(0 $gap-sm 0 0);
     }
-
     @include md {
-      display: none;
       position: absolute;
-      right: $gap;
       top: 100%;
+      right: $gap;
+
+      display: none;
+
       text-align: right;
+
       background-color: rgba($color-gray-dark, 0.95);
+
       @include box-shadow;
       @include unlist;
-
     }
-
   }
 
   &__item {
@@ -127,16 +138,16 @@
   &__link {
     display: block;
 
+    letter-spacing: 0.091em;
+
+    font-size: 1.125rem;
+
     @include md-min {
       padding: $gap $gap-sm ;
     }
-
     @include md {
       padding: $gap-sm $gap;
     }
-
-    font-size: 1.125rem;
-    letter-spacing: 0.091em;
 
     &:hover,
     &:focus {

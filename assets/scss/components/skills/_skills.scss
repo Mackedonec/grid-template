@@ -1,45 +1,39 @@
 @use "../../presets/" as *;
 @use "../../mixins/" as *;
 @use "sass:math";
-
 $local-gap: math.div(40px, 3);
 
 .skills {
   @include sm-min {
     padding: $gap-sm;
   }
-
   @include sm {
     padding: $gap;
   }
 
   &__container {
-    margin-bottom: $gap;
     display: grid;
+
+    margin-bottom: $gap;
 
     @include lg-min {
       grid-template-areas: "i1 i1 i2 i3" "i4 i5 i5 i6" "i7 i8 i9 i6";
       grid-template-columns: repeat(4, 1fr);
-
     }
-
     @include lg-md {
       grid-template-areas: "i1 i1 i2 " "i3 i4 i4" "i5 i5 i6" "i7 i8 i6" "i7 i9 i9";
       grid-template-columns: repeat(3, 1fr);
     }
-
     @include md-sm {
       grid-template-areas: "i1 i2" "i3 i2" "i4 i4" "i5 i6" "i5 i7" "i8 i9";
       grid-template-columns: repeat(2, 1fr);
     }
-
     @include sm-min {
       gap: $gap-sm;
     }
-
     @include sm {
-      grid-template-areas: "i1" "i2" "i3" "i4" "i5" "i6" "i7" "i8" "i9";
       gap: $gap;
+      grid-template-areas: "i1" "i2" "i3" "i4" "i5" "i6" "i7" "i8" "i9";
     }
 
     @media (min-height: 601px) {
