@@ -797,8 +797,6 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer__social a {
-  display: block;
-
   padding: 10px;
 
   -webkit-transition: color 0.5s;
@@ -810,7 +808,7 @@ a {
   color: #d66926;
 }
 .footer__social .fab {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 .footer__copy span:nth-of-type(1) {
   margin-right: -0.5em;
@@ -882,7 +880,7 @@ a {
     font-size: 1.125rem;
   }
   .header-content__title {
-    margin: 0 0 52px;
+    margin: 0 0 53px;
   }
   .skills__container {
     grid-template-areas: "i1 i1 i2 i3" "i4 i5 i5 i6" "i7 i8 i9 i6";
@@ -912,7 +910,7 @@ a {
     min-height: 50px;
   }
   .header-content__title {
-    margin: 0 0 42px;
+    margin: 0 0 43px;
   }
   .skills__container {
     grid-template-areas: "i1 i1 i2 " "i3 i4 i4" "i5 i5 i6" "i7 i8 i6" "i7 i9 i9";
@@ -939,7 +937,7 @@ a {
     min-height: 40px;
   }
   .header-content__title {
-    margin: 0 0 32px;
+    margin: 0 0 33px;
   }
   .header-menu {
     background-color: rgba(68, 89, 110, 0.25);
