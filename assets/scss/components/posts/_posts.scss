@@ -57,36 +57,12 @@
 
 .posts h2 {
   margin-top: 0;
-
-  color: $color-primary;
-
-  @include lg-min {
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
-  }
-
-  @include lg-md {
-    margin-bottom: 2.625rem;
-    font-size: 2rem;
-  }
-
-  @include md-sm {
-    margin-bottom: 2.25rem;
-    font-size: 1.5rem;
-  }
-
-  @include sm {
-    margin-bottom: 2.25rem;
-    text-align: center;
-    font-size: 1.5rem;
-
-  }
 }
 
 .post-item {
   transition: background-color 0.5s;
 
-  background-color: #f2f2f2;
+  background-color: lighten($color-gray-light, 5%);
 
   &__link {
     display: grid;
@@ -128,10 +104,15 @@
 
   &__caption h3 {
     font-family: $font-header;
+    transition: color 0.5s;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 1.125rem;
+    line-height: 1.15em;
   }
 
   &:hover {
-    background-color: #d8d8d8;
+    background-color: darken($color-gray-light, 5%);
   }
 }
 

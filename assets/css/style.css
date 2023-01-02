@@ -210,23 +210,7 @@ h2 {
   color: #2d3651;
 
   font-family: "Roboto Slab", serif;
-  font-size: 2.5rem;
   line-height: 1.2em;
-}
-
-h3 {
-  -webkit-transition: color 0.5s;
-       -o-transition: color 0.5s;
-          transition: color 0.5s;
-  text-align: center;
-  letter-spacing: 0.05em;
-
-  color: #637588;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.15em;
 }
 
 a {
@@ -780,8 +764,6 @@ a {
 
 .posts h2 {
   margin-top: 0;
-
-  color: #2d3651;
 }
 
 .post-item {
@@ -837,7 +819,15 @@ a {
   line-height: 1.15em;
 }
 .post-item__caption h3 {
+  -webkit-transition: color 0.5s;
+       -o-transition: color 0.5s;
+          transition: color 0.5s;
+  text-align: center;
+  letter-spacing: 0.05em;
+
   font-family: "Roboto Slab", serif;
+  font-size: 1.125rem;
+  line-height: 1.15em;
 }
 .post-item:hover {
   background-color: #d8d8d8;
@@ -990,6 +980,11 @@ a {
   h1 {
     font-size: 3.75rem;
   }
+  h2 {
+    margin-bottom: 3rem;
+
+    font-size: 2.5rem;
+  }
   .btn--light {
     min-width: 250px;
     min-height: 60px;
@@ -1025,15 +1020,15 @@ a {
     grid-template-areas: "p1 p1 p2 p3" "p4 p5 p6 p6";
     grid-template-columns: repeat(4, 1fr);
   }
-  .posts h2 {
-    margin-bottom: 3rem;
-
-    font-size: 2.5rem;
-  }
 }
 @media (max-width: 991.8px) and (min-width: 768px) {
   h1 {
     font-size: 40px;
+  }
+  h2 {
+    margin-bottom: 2.625rem;
+
+    font-size: 2rem;
   }
   .btn--light {
     min-width: 200px;
@@ -1064,11 +1059,6 @@ a {
   .posts__content {
     grid-template-areas: "p1 p1 p2" "p3 p4 p4" "p5 p5 p6";
     grid-template-columns: repeat(3, 1fr);
-  }
-  .posts h2 {
-    margin-bottom: 2.625rem;
-
-    font-size: 2rem;
   }
 }
 @media (max-width: 767.8px) {
@@ -1124,6 +1114,11 @@ a {
   }
 }
 @media (max-width: 767.8px) and (min-width: 576px) {
+  h2 {
+    margin-bottom: 2.25rem;
+
+    font-size: 1.5rem;
+  }
   .skills__container {
     grid-template-areas: "i1 i2" "i3 i2" "i4 i4" "i5 i6" "i5 i7" "i8 i9";
     grid-template-columns: repeat(2, 1fr);
@@ -1146,11 +1141,6 @@ a {
     grid-template-areas: "p1 p2" "p3 p4" "p5 p6";
     grid-template-columns: repeat(2, 1fr);
   }
-  .posts h2 {
-    margin-bottom: 2.25rem;
-
-    font-size: 1.5rem;
-  }
 }
 @media (max-height: 600px) {
   .skills__container {
@@ -1158,6 +1148,11 @@ a {
   }
 }
 @media (max-width: 575.8px) {
+  h2 {
+    margin-bottom: 2.25rem;
+
+    text-align: center;
+  }
   .btn--primary {
     min-width: 100%;
   }
@@ -1197,12 +1192,5 @@ a {
   .posts__content {
     grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";
     grid-template-columns: repeat(1, 1fr);
-  }
-  .posts h2 {
-    margin-bottom: 2.25rem;
-
-    text-align: center;
-
-    font-size: 1.5rem;
   }
 }
