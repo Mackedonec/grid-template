@@ -53,9 +53,21 @@ $local-gap: math.div(40px, 3);
   &__actions {
     display: flex;
     justify-content: center;
+    margin-bottom: $gap-lg;
+
+
+  }
+
+  .btn--primary {
+    border-color: $color-primary;
+    background-color: rgba($color-primary, 0.8);
 
     @include sm-min {
-      margin-bottom: $gap-lg;
+      min-width: 350px;
+    }
+
+    @include sm {
+      width: 100%;
     }
   }
 }
