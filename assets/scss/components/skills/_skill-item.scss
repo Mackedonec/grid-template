@@ -3,19 +3,20 @@
 
 .skill-item {
   position: relative;
+
   overflow: hidden;
 
   &__title {
     z-index: 1;
+
     margin: 0;
+
     letter-spacing: 0.1em;
 
     @include abs-position;
-
     @include md-min {
       font-size: 1.25rem;
     }
-
     @include md {
       font-size: 1.125rem;
     }
@@ -25,7 +26,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     padding: $gap;
+
     transition: color 0.5s;
 
     @include abs-position;
@@ -33,6 +36,7 @@
 
   &__image {
     transition: transform 0.5s;
+
     background-color: $color-primary;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -43,6 +47,7 @@
 
   &__overlay {
     transition: opacity 0.5s;
+
     opacity: 0.8;
 
     @include abs-position;

@@ -6,12 +6,10 @@
     padding-top: $gap-x5;
     padding-bottom: $gap-x5;
   }
-
   @include lg-md {
     padding-top: $gap-x4;
     padding-bottom: $gap-x4;
   }
-
   @include md {
     padding-top: $gap-x3;
     padding-bottom: $gap-x3;
@@ -23,24 +21,22 @@
 
   &__content {
     display: grid;
-    padding-bottom: $gap;
-    gap: $gap;
 
+    padding-bottom: $gap;
+
+    gap: $gap;
     @include lg-min {
       grid-template-areas: "p1 p1 p2 p3" "p4 p5 p6 p6";
       grid-template-columns: repeat(4, 1fr);
     }
-
     @include lg-md {
       grid-template-areas: "p1 p1 p2" "p3 p4 p4" "p5 p5 p6";
       grid-template-columns: repeat(3, 1fr);
     }
-
     @include md-sm {
       grid-template-areas: "p1 p2" "p3 p4" "p5 p6";
       grid-template-columns: repeat(2, 1fr);
     }
-
     @include sm {
       grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";
       grid-template-columns: repeat(1, 1fr);
@@ -65,7 +61,9 @@
   &__link {
     display: grid;
     overflow: hidden;
+
     height: 100%;
+
     grid-template-rows: 300px 1fr;
   }
 
@@ -76,29 +74,36 @@
 
   &__image img {
     width: 100%;
+
     transition: transform 0.5s;
+
     object-fit: cover;
   }
 
   &__caption {
     display: grid;
     align-content: center;
+
     padding: $gap;
+
     color: $color-gray;
   }
 
   &__caption p {
     transition: color 0.5s;
     text-align: center;
+
     color: $color-gray;
+
     line-height: 1.15em;
   }
 
   &__caption h3 {
-    font-family: $font-header;
     transition: color 0.5s;
     text-align: center;
     letter-spacing: 0.05em;
+
+    font-family: $font-header;
     font-size: 1.125rem;
     line-height: 1.15em;
   }
