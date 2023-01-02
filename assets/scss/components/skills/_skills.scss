@@ -45,7 +45,7 @@ $local-gap: math.div(40px, 3);
       grid-auto-rows: calc(33.3333vh - #{$local-gap});
     }
 
-    @media (max-height: 600px) {
+    @media (max-height: 690px) {
       grid-auto-rows: calc(230px - #{$local-gap});
     }
   }
@@ -53,21 +53,9 @@ $local-gap: math.div(40px, 3);
   &__actions {
     display: flex;
     justify-content: center;
-    margin-bottom: $gap-lg;
-
-
-  }
-
-  .btn--primary {
-    border-color: $color-primary;
-    background-color: rgba($color-primary, 0.8);
 
     @include sm-min {
-      min-width: 350px;
-    }
-
-    @include sm {
-      width: 100%;
+      margin-bottom: $gap-lg;
     }
   }
 }
