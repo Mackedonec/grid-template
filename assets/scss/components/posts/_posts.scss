@@ -23,9 +23,7 @@
 
   &__content {
     display: grid;
-
     padding-bottom: $gap;
-
     gap: $gap;
 
     @include lg-min {
@@ -67,9 +65,7 @@
   &__link {
     display: grid;
     overflow: hidden;
-
     height: 100%;
-
     grid-template-rows: 300px 1fr;
   }
 
@@ -87,18 +83,14 @@
   &__caption {
     display: grid;
     align-content: center;
-
-    padding: 20px;
-
+    padding: $gap;
     color: $color-gray;
   }
 
   &__caption p {
     transition: color 0.5s;
     text-align: center;
-
     color: $color-gray;
-
     line-height: 1.15em;
   }
 

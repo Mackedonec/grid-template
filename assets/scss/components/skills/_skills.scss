@@ -14,7 +14,6 @@ $local-gap: math.div(40px, 3);
 
   &__container {
     display: grid;
-
     margin-bottom: $gap;
 
     @include lg-min {

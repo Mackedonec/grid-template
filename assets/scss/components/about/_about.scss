@@ -4,9 +4,7 @@
 .about {
   letter-spacing: 0.055em;
 
-
   background-color: $color-gray-light;
-
 
   @include lg-min {
     padding-top: $gap-x5;
@@ -26,7 +24,6 @@
   h2 {
     margin-top: 0;
   }
-
 
   &__container {
     display: grid;
@@ -62,18 +59,14 @@
 
       &:first-of-type {
         position: relative;
-
         margin-top: -5px;
 
         &::after {
           position: absolute;
           top: 0;
-
           width: 2px;
           height: 200px;
-
           content: "";
-
           background-color: rgba($color-gray, 0.1);
 
           @include lg-min {
@@ -103,7 +96,6 @@
   &__image {
     display: grid;
     align-content: center;
-
     justify-items: center;
 
     img {

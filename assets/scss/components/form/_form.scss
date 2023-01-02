@@ -3,7 +3,6 @@
 
 .form {
   padding: $gap-lg 0;
-
   background-color: $color-primary;
 
   &__container {
@@ -23,7 +22,6 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
 }
 
 .form-item {
@@ -42,16 +40,13 @@
     height: 60px;
     padding-right: $gap-lg;
     padding-left: $gap-lg;
-
     transition: 0.5s;
     letter-spacing: 0.15em;
-
     color: $color-light;
     border: 2px solid rgba($color-light, 0);
     border-bottom-color: rgba($color-light, 0.25);
     outline: none;
     background-color: rgba($color-light, 0.05);
-
     font-size: 1.125rem;
   }
 }
@@ -63,9 +58,7 @@
 .form .btn--primary {
   min-width: 100%;
   height: 100%;
-
   transition: 0.5s;
-
   color: $color-light;
   border-color: rgba($color-light, 0);
   border-bottom-color: rgba($color-light, 0.2);

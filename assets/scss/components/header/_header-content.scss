@@ -28,7 +28,6 @@
   &__actions {
     display: flex;
     justify-content: center;
-
     gap: $gap;
 
     @include sm {

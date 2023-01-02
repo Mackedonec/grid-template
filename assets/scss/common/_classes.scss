@@ -5,12 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 0.5em 1em;
-
   transition: background-color 0.25s;
   letter-spacing: 0.1em;
-
   border-width: 2px;
   border-style: solid;
 
@@ -42,10 +39,8 @@
   &--primary {
     min-width: 350px;
     min-height: 60px;
-
     border-color: $color-primary;
     background-color: rgba($color-primary, 0.8);
-
     font-size: 1.125rem;
 
     @include sm-min {
@@ -57,7 +52,6 @@
     }
   }
 }
-
 
 .visually-hidden {
   @include visually-hidden;
