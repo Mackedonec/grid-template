@@ -51,6 +51,16 @@ h2 {
 
 h3 {
   font-family: $font-main;
+
+  transition: color 0.5s;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: $color-gray;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.15em;
 }
 
 
